@@ -1,25 +1,59 @@
-//1
-function countToTen(){
-  
+//problem 1 
+
+const countToTen = () => {
+    for(let i = 1; i < 11; i++) {
+        console.log(i);
+    }
 }
 
-//2
-function countFromOne(){
-  
+//countToTen();
+
+//problem 2 
+
+const countFromOne = int => {
+    for(let i = 1; i < int +1; i++) {
+        console.log(i);
+    }
 }
 
-//3
-function countEveryEven(){
-  
+//countFromOne(25)
+
+//problem 3 
+
+const countEveryEven = int => {
+    for(let i = 1; i < int +1; i++) {
+        if( i % 2 === 0 ) {
+            console.log(i);
+        }
+    }
+    
 }
 
-//4
-function countEveryOdd(){
-  
+//countEveryEven(20); 
+
+//problem 4 
+
+const countEveryOdd = int => {
+    for(let i = 1; i < int +1; i++) {
+        if( i % 2 !== 0 ) {
+            console.log(i);
+        }
+    }
+    
 }
 
-//5 
-function countEvens(){
-  
+//countEveryOdd(20);
+
+//problem 5
+
+const countEvens = array => {
+    let evenNumberCounter = 0;
+    for(let i = 0; i < array.length; i++) {
+        if(i % 2 === 0) {
+            evenNumberCounter += 1;
+        }
+    } console.log(evenNumberCounter);
 }
+
+//countEvens([1, 2, 3, 4, 5, 6, 8]);
 
