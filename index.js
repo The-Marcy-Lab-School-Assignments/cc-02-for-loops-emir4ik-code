@@ -46,15 +46,14 @@ const countEveryOdd = int => {
 
 //problem 5
 
-/*const countEvens = array => {
+const countEvens = array => {
     let evenNumberCounter = 0;
     for(let i = 0; i < array.length; i++) {
-        if(i % 2 === 0) {
+        if(array[i] % 2 === 0) {
             evenNumberCounter += 1;
         }
     } console.log(evenNumberCounter);
-}
+} 
 
-countEvens([2, 2, 2, 2]);
+//countEvens([2, 3, 0, 5, 8, 12, 7]);
 
-*/
